@@ -8,7 +8,7 @@ function Navbar() {
     <div className=' nav p-2'>
         <div className='m-2'>
             <i className='bi bi-box me-3 fs-4'></i>
-            <span className='brand-name fs-4'>Admin</span>
+            <span className='brand-name fs-4 fw-bolder'>Admin</span>
         </div>
         <hr className='text-dark '/>
         <div className='list-group list-group-flush '>

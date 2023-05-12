@@ -12,21 +12,34 @@ function Crud_s() {
         {
             id: 2, 
             name: "Suresh Reddy",
-            std: "8th",
+            std: "9th",
             rollno:"28"
         },
         {
             id: 3, 
-            name: "Rakesh Singh",
+            name: "Priya Rai",
             std: "8th",
-            rollno:"20"
+            rollno:"21"
         },
         {
             id: 4, 
             name: "Rajni Naik",
             std: "8th",
-            rollno:"21"
+            rollno:"20"
         },
+        {
+            id: 5, 
+            name: "Arushi Bhatt",
+            std: "6th",
+            rollno:"05"
+        },
+        {
+            id: 6, 
+            name: "Yogesh Chari",
+            std: "9th",
+            rollno:"35"
+        },
+      
     ]
     const [lists, setList] = useState(list)
     const [updateState, setUpdateState] = useState(-1)
@@ -144,7 +157,7 @@ function EditList({current, lists, setList}) {
         const std = event.target.elements.std.value;
         const rollno = event.target.elements.rollno.value;
         const newlist = {
-            id: 5,
+            id: 7,
             name,
             std,
             rollno
@@ -158,8 +171,8 @@ function EditList({current, lists, setList}) {
     }
     return(
         <form className='addForm' onSubmit={handleSubmit}>
-            <input type="text" name="name" placeholder="Enter Name" ref={nameRef}/>
-            <input type="text" name="std" placeholder="Enter std" ref={stdRef}/>
+            <input type="text" name="name" placeholder="Enter Student Name" ref={nameRef}/>
+            <input type="text" name="std" placeholder="Enter standard" ref={stdRef}/>
             <input type="text" name="rollno" placeholder="Enter rollno" ref={rollnoRef}/>
             <button type="submit">Add</button>
         </form>

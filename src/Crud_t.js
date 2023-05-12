@@ -7,26 +7,41 @@ function Crud_t() {
             id: 1, 
             name: "Sneha K",
             sub: "Maths",
-            classe:"10th"
+            classe:"10th B"
         },
         {
             id: 2, 
             name: "Ram Singh",
             sub: "English",
-            classe:"7th"
+            classe:"7th C"
         },
         {
             id: 3, 
             name: "John Mathew",
             sub: "Science",
-            classe:"8th"
+            classe:"8th A"
         },
         {
             id: 4, 
             name: "Kiran Rao",
             sub: "Social Science",
-            classe:"7th"
+            classe:"7th D"
         },
+        {
+            id: 5, 
+            name: "Tejas Rana",
+            sub: "Hindi",
+            classe:"5th D"
+        },
+        {
+            id: 7, 
+            name: "Sushant Das",
+            sub: "Math",
+            classe:"9th B"
+        },
+    
+        
+        
 
     ]
     const [lists, setList] = useState(list)
@@ -34,7 +49,7 @@ function Crud_t() {
     return(
         <div className='crud'>
             <div>
-            <h3>Faculties Details</h3>
+            <h3>Student Details</h3>
             <AddList setList = {setList }/>
             <form onSubmit={handleSubmit}>
             <table>
@@ -145,7 +160,7 @@ function EditList({current, lists, setList}) {
         const sub = event.target.elements.sub.value;
         const classe = event.target.elements.classe.value;
         const newlist = {
-            id: 5,
+            id: 8,
             name,
             sub,
             classe
@@ -159,9 +174,9 @@ function EditList({current, lists, setList}) {
     }
     return(
         <form className='addForm' onSubmit={handleSubmit}>
-            <input type="text" name="name" placeholder="Enter Name" ref={nameRef}/>
-            <input type="text" name="std" placeholder="Enter sub" ref={subRef}/>
-            <input type="text" name="rollno" placeholder="Enter class" ref={classeRef}/>
+            <input type="text" name="name" placeholder="Enter faculty Name" ref={nameRef}/>
+            <input type="text" name="sub" placeholder="Enter subject" ref={subRef}/>
+            <input type="text" name="classe" placeholder="Enter class" ref={classeRef}/>
             <button type="submit">Add</button>
         </form>
     )

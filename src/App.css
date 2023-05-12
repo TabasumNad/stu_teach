@@ -9,12 +9,14 @@ cursor: pointer;
 }
 
 .bckg{
-  background-image: linear-gradient(to right top, #a879b1, #926fa9, #7c65a0, #655c96, #4d538c, #3e5a93, #2a6199, #00689d, #0081af, #009abb, #00b2bf, #12cabe);
+  /* background-image: linear-gradient(to right top, #a879b1, #926fa9, #7c65a0, #655c96, #4d538c, #3e5a93, #2a6199, #00689d, #0081af, #009abb, #00b2bf, #12cabe); */
+  background-image: linear-gradient(to left bottom, #a879b1, #9674ae, #846fab, #716aa6, #5c65a1, #52629e, #485e9b, #3c5b98, #3a5998, #395797, #375497, #365296);
   /* background-image: linear-gradient(to right top, #903a6b, #823d74, #72417b, #5f4580, #4b4881, #3d548d, #295f96, #006a9d, #0083af, #009bba, #00b3bf, #12cabe); */
 }
 
 .bgnv{
-  background-image: linear-gradient(to right top, #3f122b, #401837, #3e2043, #39274e, #322f58, #2d3e6a, #204d7a, #005c89, #0077a0, #0093b1, #00afba, #12cabe);
+  background-image: linear-gradient(to right bottom, #a879b1, #9674ae, #846fab, #716aa6, #5c65a1, #52629e, #485e9b, #3c5b98, #3a5998, #395797, #375497, #365296);
+  /* background-image: linear-gradient(to right top, #3f122b, #401837, #3e2043, #39274e, #322f58, #2d3e6a, #204d7a, #005c89, #0077a0, #0093b1, #00afba, #12cabe); */
 }
 
 .bgnc{
@@ -28,7 +30,7 @@ color: white;
 }
 
 .crud {
-  height: 55vh;
+  height: 80vh;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -38,7 +40,7 @@ table td {
  border: solid black 1px;
   width: 90px;
   height: 30px;
-  background-color: rgb(180, 197, 213);
+  background-color: rgb(142, 154, 165);
   text-align: center;
   color: black;
 }
