@@ -8,8 +8,27 @@ cursor: pointer;
   flex-direction: row;
 }
 
+.bckg{
+  background-image: linear-gradient(to right top, #a879b1, #926fa9, #7c65a0, #655c96, #4d538c, #3e5a93, #2a6199, #00689d, #0081af, #009abb, #00b2bf, #12cabe);
+  /* background-image: linear-gradient(to right top, #903a6b, #823d74, #72417b, #5f4580, #4b4881, #3d548d, #295f96, #006a9d, #0083af, #009bba, #00b3bf, #12cabe); */
+}
+
+.bgnv{
+  background-image: linear-gradient(to right top, #3f122b, #401837, #3e2043, #39274e, #322f58, #2d3e6a, #204d7a, #005c89, #0077a0, #0093b1, #00afba, #12cabe);
+}
+
+.bgnc{
+  width: 230px;
+  background-image: linear-gradient(to right top, #6e3253, #69395f, #61406a, #584772, #4e4e78, #475a86, #3c6692, #2d729b, #0088ad, #009eb9, #00b5bf, #12cabe);
+}
+.bgbar{
+  /* background-image: linear-gradient(to right top, #985077, #7b456f, #5e3a63, #433056, #292546, #222d4f, #163558, #003d5e, #005e80, #00819c, #00a5b1, #12cabe); */
+  background-image: linear-gradient(to right top, #452c39, #4a2e43, #4b3250, #49375d, #423d6b, #3b4b7d, #2b598e, #00689d, #0081af, #009abb, #00b2bf, #12cabe);
+color: white;
+}
+
 .crud {
-  height: 50vh;
+  height: 55vh;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -51,6 +70,7 @@ table td button.delete:hover {
   margin-bottom: 30px;
 }
 .addForm input {
+  background-color: #173738;
   width: 180px;
   height: 30px;
 }
@@ -58,7 +78,7 @@ table td button.delete:hover {
   width: 135px;
   color: white;
   height: 35px;
-  background-color: rgb(31, 171, 31);
+  background-color: rgb(35, 106, 35);
 }
 .addForm button:hover {
   background-color: rgb(5, 86, 5);

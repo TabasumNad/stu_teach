@@ -13,7 +13,7 @@ function Home({Toggle}) {
         <div className='container-fluid'>
             <div className='row g-3 my-2'>
                 <div className='col-md-3 p-1'>
-                    <div className='p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded'>
+                    <div className='p-3 bgbar shadow-sm d-flex justify-content-around align-items-center rounded'>
                         <div>
                             <h3 className='fs-2'>30</h3>
                             <p className='fs-5'>Faculties</p>
@@ -26,7 +26,7 @@ function Home({Toggle}) {
 
 
                 <div className='col-md-3 p-1'>
-                    <div className='p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded'>
+                    <div className='p-3 bgbar shadow-sm d-flex justify-content-around align-items-center rounded'>
                         <div>
                             <h3 className='fs-2'>50</h3>
                             <p className='fs-5'>Strenth of each class</p>
@@ -39,7 +39,7 @@ function Home({Toggle}) {
 
 
                 <div className='col-md-3 p-1'>
-                    <div className='p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded'>
+                    <div className='p-3 bgbar shadow-sm d-flex justify-content-around align-items-center rounded'>
                         <div>
                             <h3 className='fs-2'>2050</h3>
                             <p className='fs-5'>Total Students</p>
@@ -50,7 +50,7 @@ function Home({Toggle}) {
 
                 </div>
                 <div className='col-md-3 p-1'>
-                    <div className='p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded'>
+                    <div className='p-3 bgbar shadow-sm d-flex justify-content-around align-items-center rounded'>
                         <div>
                             <h3 className='fs-2'>41</h3>
                             <p className='fs-5'>Classrooms</p>
@@ -66,6 +66,7 @@ function Home({Toggle}) {
        <div className='flex-container'>
        
      <Crud_s/>
+    
      <Crud_t/>
      
        </div>

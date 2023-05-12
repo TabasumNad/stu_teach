@@ -33,13 +33,14 @@ function Crud_s() {
     return(
         <div className='crud'>
             <div>
+            <h3>Student Details</h3>
             <AddList setList = {setList }/>
             <form onSubmit={handleSubmit}>
             <table>
             <tr>
     <th>Sr.no</th>
-    <th>Name</th>
-    <th>Std</th>
+    <th>St_Name</th>
+    <th>Standard</th>
     <th>RollNo</th>
   </tr>
                 {

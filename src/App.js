@@ -17,10 +17,10 @@ const Toggle=()=>{
 
   return (
    
-    <div className="container-fluid bg-secondary min-vh-100 App">
+    <div className="container-fluid bckg min-vh-100 App">
       <div className='row'>
        { toggle && 
-       <div className='col-2  bg-white vh-100 position-fixed'>
+       <div className='col-2  bgnv vh-100 position-fixed'>
       <Navbar />
         </div>}
 

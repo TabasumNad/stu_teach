@@ -34,14 +34,15 @@ function Crud_t() {
     return(
         <div className='crud'>
             <div>
+            <h3>Faculties Details</h3>
             <AddList setList = {setList }/>
             <form onSubmit={handleSubmit}>
             <table>
             <tr>
     <th>Sr.no</th>
     <th>Name</th>
-    <th>Sub</th>
-    <th>Class</th>
+    <th>Subject</th>
+    <th>Teaches</th>
   </tr>
                 {
                     lists.map((current) => (
